@@ -10,6 +10,6 @@ def link(why="It's Dangerous To Go Alone! Take This.")
   puts why
 end
 
-def all_phrases(mario, toadstool, link)
-  puts 
+def all_phrases
+  mario + toadstool + link 
 end
